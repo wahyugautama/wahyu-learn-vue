@@ -2,6 +2,8 @@
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import Footer from './components/Footer.vue'
+import Button from './components/Button.vue'
+
 </script>
 
 <template>
@@ -16,5 +18,6 @@ import Footer from './components/Footer.vue'
   <main>
     <TheWelcome />
   </main>
+  <Button buttonText="Talk to us" />
   <Footer />
 </template>

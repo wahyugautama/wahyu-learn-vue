@@ -2,7 +2,6 @@
 defineProps({
     buttonText: {
         type: String,
-        default: "Button Default"
     }
 })
 </script>
